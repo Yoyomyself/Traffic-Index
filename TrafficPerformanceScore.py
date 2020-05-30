@@ -39,7 +39,7 @@ from Visualization import GenerateGeo, GenerateGeoAnimation
 # @st.cache(allow_output_mutation=True)
 def getDatabaseConnection():
     return pyodbc.connect(
-        f'DRIVER={SQL_DRIVER};SERVER=128.95.29.74;DATABASE=RealTimeLoopData;UID=starlab;PWD=star*lab1')
+        f'DRIVER={SQL_DRIVER};SERVER=*.*.*.*;DATABASE=RealTimeLoopData;UID=*;PWD=*')
 
 
 @st.cache
